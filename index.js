@@ -17,13 +17,13 @@ function keepGoing(array, changeValue, skipValue) {
 
  function findBy (array, findFn) {
    var val = 0
-   var numb = findFn()
+   var numb = findFn(n)
    for (var i=0; i<array.length;i++) {
-     if(array[i]==false) {
+     if(array[i]==numb) {
        val = array[i]
        break
      }
-     else {val = numb}
+     else {val =null}
    }
    return val
  }
