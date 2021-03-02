@@ -22,7 +22,7 @@ function keepGoing(array, changeValue, skipValue) {
        val = array[i]
        break
      }
-     else {val = null}
+     else {val = array[i]}
    }
    return val
  }
