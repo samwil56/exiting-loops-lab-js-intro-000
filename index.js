@@ -17,9 +17,9 @@ function keepGoing(array, changeValue, skipValue) {
 
  function findBy (array, findFn) {
    var val = 0
-   var numb = findFn(100)
+   var numb = findFn()
    for (var i=0; i<array.length;i++) {
-     if(array[i]==numb) {
+     if(array[i]==false) {
        val = array[i]
        break
      }
