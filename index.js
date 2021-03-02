@@ -19,8 +19,8 @@ function keepGoing(array, changeValue, skipValue) {
    var val = 0
    for (var i=0; i<array.length;i++) {
      var numb = findFn(array[i])
-     if (array[i]==numb) {val=array[i]}
-     else{val=findFn(array[i])}
+     if (numb==True) {val=array[i]}
+     else{val=null}
    }
    return val
  }
