@@ -23,7 +23,7 @@ function keepGoing(array, changeValue, skipValue) {
        val = array[i]
        break
      }
-     else {val = null}
+     else {val = numb}
    }
    return val
  }
