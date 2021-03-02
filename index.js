@@ -13,3 +13,9 @@ function keepGoing(array, changeValue, skipValue) {
   }
   return array
 }
+ function findBy (array, findFn) {
+   for (vari=0; i<array.length;i++) {
+     if(array[i]==findFn) {return findFn}
+     if(array[array.length-1] != findFn) {return NULL}
+   }
+ }
