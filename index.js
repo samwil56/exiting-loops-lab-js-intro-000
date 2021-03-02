@@ -22,7 +22,7 @@ function keepGoing(array, changeValue, skipValue) {
        val = findFn
        break
      }
-     else {val = 0}
+     else {val = findFn}
    }
    return val
  }
