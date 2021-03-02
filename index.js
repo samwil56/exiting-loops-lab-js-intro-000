@@ -20,7 +20,7 @@ function keepGoing(array, changeValue, skipValue) {
    for (var i=0; i<array.length;i++) {
      var numb = findFn(array[i])
      if (array[i]==numb) {val=array[i]}
-     else{val=null}
+     else{val=findFn(array[i])}
    }
    return val
  }
