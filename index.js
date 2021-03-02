@@ -17,7 +17,7 @@ function keepGoing(array, changeValue, skipValue) {
 
  function findBy (array, findFn) {
    var val = 0
-   var numb = parse(findFn)
+   var numb = type(findFn)
    for (var i=0; i<array.length;i++) {
      if(array[i]==numb) {
        val = array[i]
